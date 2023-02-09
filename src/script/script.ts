@@ -1,5 +1,4 @@
 import data from "../config/data.json"
-import iconEllipsis from "../assets/icon-ellipsis.svg"
 
 type timeWeek = "daily" | "weekly" | "monthly"
 
@@ -34,7 +33,6 @@ const generateTimes = (timeWeek: timeWeek) => {
                 <div class="tracking-information">
                 <div class="tracking-title">
                     <h1>${value.title}</h1>
-                    <img src="${iconEllipsis}"></img>
                 </div>
                     <div class="tracking-hours">
                         <h1>${value.timeframes[timeWeek].current}hrs</h1>

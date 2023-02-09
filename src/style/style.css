@@ -179,6 +179,9 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    background-image: url("../assets/icon-ellipsis.svg");
+    background-repeat: no-repeat;
+    background-position: center right;
 } 
 
 .tracking-title h1 {
